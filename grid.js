@@ -35,7 +35,7 @@ class Grid {
 	}
 
 	setColumn(x, array) {
-		if(this.height != array.length) {
+		if(this.height !== array.length) {
 			console.log("Array length not equal to column height");
 		}
 		else {
@@ -44,7 +44,7 @@ class Grid {
 	}
 
 	setRow(y, array) {
-		if(this.width != array.length) {
+		if(this.width !== array.length) {
 			console.log("Array length not equal to row width");
 		}
 
@@ -53,3 +53,5 @@ class Grid {
 		}
 	}
 };
+
+export default Grid;
